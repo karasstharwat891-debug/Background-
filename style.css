@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to left,rgb(26, 26, 150),rgb(24, 22, 22) );
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page-header{
+    background-image: linear-gradient(to left,rgb(126, 42, 151),rgb(228, 98, 98));
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+}
+
+.fact-card{
+    background-color: rgb(8, 8, 56);
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+}
+.fact-card h2{
+    color: red;
+}
+
+.star{
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50px;
+    animation: twinkle 2s infinite alternate ;
+}
+@keyframes twinkle{
+    from{background-color:yellow;}
+    to{background-color:white;}
+}
+.footer-text{
+    color: coral;
+    text-align: center;
+}
